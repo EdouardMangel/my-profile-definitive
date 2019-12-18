@@ -1,0 +1,71 @@
+body{
+	background-color: white;
+	color: black;
+	font-weight: 10px;
+	letter-spacing: 5px;
+	font-size: 20px;}
+
+
+h1 {text-justify: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100px;
+	letter-spacing: 10px;
+	font-size: 60px;
+	}
+	
+img {
+	width: 200px;
+	height: 200px;
+}
+
+
+	h2{font-family: font-family: 'Cinzel', serif;
+		color: blue;
+	   font-size: 40; 
+		}
+
+h3 {
+	color: black;
+	text-justify: center;
+	font-family: Arial;
+	font-size: 40;
+		}
+
+a:hover{
+	text-decoration: none;
+	color: purple;
+}		
+
+a{font-size: 25px;
+color: blue;
+text-decoration: none}
+
+div{text-justify: justify;}
+
+@media (max-width: 960px) {
+  
+  .container, body {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container, body {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container, body {
+    width: 300px;
+  }
+}
+
+div{ background-color: #d3f4ff; padding: 30px; border-radius: 4px; box-shadow: 0 10px 30px rgba(0,0,0,.1); width: 1000px; margin: 50px auto; height: 320px; text-justify: justify;}
+
+img {text-justify: center;
+  width: 200px;	
+	height: 200px;
+	border-radius: 50%}
+
+	i{color: #5edfff;}
+
+.cardblue {border: 2px solid blue	;}
